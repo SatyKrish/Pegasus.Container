@@ -1,0 +1,20 @@
+# Build Docker Image
+docker build -t pegasuswebapp .
+
+# Run Docker Container
+docker run -d --name pegasusweb pegasuswebapp
+
+docker inspect -f "{{ .NetworkSettings.Networks.nat.IPAddress }}" pegasusweb
+
+docker stop pegasusweb
+
+docker rm pegasusweb
+
+# Publish Image to Container Registry
+docker login satyworkspace.azurecr.io -u satyworkspace -p xyz
+
+docker tag pegasuswebapp satyworkspace.azurecr.io/pegasuswebapp
+
+docker push satyworkspace.azurecr.io/pegasuswebapp
+
+# Create Service Fabric Application

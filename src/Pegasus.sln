@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2003
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{A07B5EB6-E848-4116-A8D0-A826331D98C6}") = "PegasusApplication", "PegasusApplication\PegasusApplication.sfproj", "{275CE5C7-85FC-42D1-8D19-B92B715FF92A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PegasusWeb", "PegasusWeb\PegasusWeb.csproj", "{D4837042-03B7-443F-ABF2-A2B86AF317F8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PegasusDataStore", "PegasusDataStore\PegasusDataStore.csproj", "{26925102-C3D4-4D33-91D5-0E3FD8DAAB3C}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{CC1B02C0-19B1-405B-B2C0-1B010D8ABBCA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{275CE5C7-85FC-42D1-8D19-B92B715FF92A}.Debug|Any CPU.ActiveCfg = Debug|x64
+		{275CE5C7-85FC-42D1-8D19-B92B715FF92A}.Debug|x64.ActiveCfg = Debug|x64
+		{275CE5C7-85FC-42D1-8D19-B92B715FF92A}.Debug|x64.Build.0 = Debug|x64
+		{275CE5C7-85FC-42D1-8D19-B92B715FF92A}.Debug|x64.Deploy.0 = Debug|x64
+		{275CE5C7-85FC-42D1-8D19-B92B715FF92A}.Release|Any CPU.ActiveCfg = Release|x64
+		{275CE5C7-85FC-42D1-8D19-B92B715FF92A}.Release|x64.ActiveCfg = Release|x64
+		{275CE5C7-85FC-42D1-8D19-B92B715FF92A}.Release|x64.Build.0 = Release|x64
+		{275CE5C7-85FC-42D1-8D19-B92B715FF92A}.Release|x64.Deploy.0 = Release|x64
+		{D4837042-03B7-443F-ABF2-A2B86AF317F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4837042-03B7-443F-ABF2-A2B86AF317F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4837042-03B7-443F-ABF2-A2B86AF317F8}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{D4837042-03B7-443F-ABF2-A2B86AF317F8}.Debug|x64.Build.0 = Debug|Any CPU
+		{D4837042-03B7-443F-ABF2-A2B86AF317F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4837042-03B7-443F-ABF2-A2B86AF317F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4837042-03B7-443F-ABF2-A2B86AF317F8}.Release|x64.ActiveCfg = Release|x64
+		{D4837042-03B7-443F-ABF2-A2B86AF317F8}.Release|x64.Build.0 = Release|x64
+		{26925102-C3D4-4D33-91D5-0E3FD8DAAB3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26925102-C3D4-4D33-91D5-0E3FD8DAAB3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26925102-C3D4-4D33-91D5-0E3FD8DAAB3C}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{26925102-C3D4-4D33-91D5-0E3FD8DAAB3C}.Debug|x64.Build.0 = Debug|Any CPU
+		{26925102-C3D4-4D33-91D5-0E3FD8DAAB3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26925102-C3D4-4D33-91D5-0E3FD8DAAB3C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26925102-C3D4-4D33-91D5-0E3FD8DAAB3C}.Release|x64.ActiveCfg = Release|x64
+		{26925102-C3D4-4D33-91D5-0E3FD8DAAB3C}.Release|x64.Build.0 = Release|x64
+		{CC1B02C0-19B1-405B-B2C0-1B010D8ABBCA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC1B02C0-19B1-405B-B2C0-1B010D8ABBCA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC1B02C0-19B1-405B-B2C0-1B010D8ABBCA}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{CC1B02C0-19B1-405B-B2C0-1B010D8ABBCA}.Debug|x64.Build.0 = Debug|Any CPU
+		{CC1B02C0-19B1-405B-B2C0-1B010D8ABBCA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC1B02C0-19B1-405B-B2C0-1B010D8ABBCA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC1B02C0-19B1-405B-B2C0-1B010D8ABBCA}.Release|x64.ActiveCfg = Release|Any CPU
+		{CC1B02C0-19B1-405B-B2C0-1B010D8ABBCA}.Release|x64.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DA1ECE35-9ED9-4ABA-B540-E44D762457C0}
+	EndGlobalSection
+EndGlobal
